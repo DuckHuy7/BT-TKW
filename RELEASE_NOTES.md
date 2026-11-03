@@ -6,4 +6,11 @@
 - Sửa menu, liên hệ và footer để không trỏ đến phần đã bỏ.
 - CSS/JS dùng đường dẫn tương đối.
 
-Tag và GitHub Release cần được xác nhận riêng; file này không phải bằng chứng đã phát hành.
+- Sửa dialog dài: giới hạn 85vh, cuộn nội dung và khóa cuộn nền; đóng dialog khôi phục cuộn.
+- Tài liệu README, AI_LOG, DEMO, VERIFICATION, RUBRIC và script kiểm tra đường dẫn/HTTP/hash.
+
+Demo: https://duckhuy7.github.io/BT-TKW/
+
+Kiểm chứng: xem docs/VERIFICATION.md và chạy python scripts/verify.py --online sau deploy.
+
+Giới hạn: chưa có liên hệ đầy đủ, hình dự án là minh họa, không backend; sinh viên cần tự kiểm thử mobile và in CV. Tag v1.0.0 được tạo khi công bố GitHub Release cho bản này.

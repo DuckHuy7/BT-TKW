@@ -30,8 +30,29 @@ Mở http://localhost:8000.
 
 Repository: https://github.com/DuckHuy7/BT-TKW
 
-GitHub Pages: chưa xác nhận triển khai. Có thể bật tại Settings → Pages → Deploy from a branch → main → /(root). Chỉ thêm URL demo sau khi triển khai thành công và kiểm tra.
+Demo công khai: https://duckhuy7.github.io/BT-TKW/
+
+Pages đã bật từ nhánh main, thư mục /(root), HTTPS bắt buộc. GitHub tự chạy workflow pages build and deployment khi nhánh cập nhật.
 
 ## Giới hạn
 
 Chưa có thông tin liên hệ đầy đủ. Hình dự án là minh họa bằng CSS, không phải ảnh chụp sản phẩm thực tế. Không có backend hoặc gửi email. Google Fonts có Arial dự phòng. AI hỗ trợ phần lớn mã nguồn; sinh viên cần đọc hiểu, chỉnh thông tin và tự kiểm chứng trước khi nộp.
+
+## Kiểm chứng và tài liệu bài nộp
+
+```bash
+python scripts/verify.py
+node --check script.js
+python scripts/verify.py --online
+git log --oneline
+git rev-parse HEAD
+```
+
+Chờ workflow triển khai xong trước khi chạy kiểm tra online. Script so sánh byte của HTML, CSS và JavaScript, không chỉ kiểm tra trang mở được.
+
+- [Biên bản kiểm chứng](docs/VERIFICATION.md)
+- [Kịch bản demo và phản biện](docs/DEMO.md)
+- [Đối chiếu rubric](docs/RUBRIC.md)
+- [Release note](RELEASE_NOTES.md)
+
+Tài liệu học phần nằm trong repository, không hiển thị thành các mục trên website.
