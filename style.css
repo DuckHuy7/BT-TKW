@@ -5,3 +5,7 @@
 .hero-copy{min-width:0}.mock-browser,.mock-dashboard{max-width:100%}@media(max-width:370px){.hero-copy h1{font-size:34px}.actions{flex-wrap:wrap}.filters{flex-wrap:wrap}.contact h2{font-size:28px}}
 
 @media print{.project[hidden]{display:block!important}}
+
+/* Keep background fixed and long dialog content reachable. */
+body.modal-open{overflow:hidden}
+dialog{max-height:85vh;overflow-y:auto}
